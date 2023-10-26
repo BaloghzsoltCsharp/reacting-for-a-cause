@@ -18,11 +18,11 @@ export const Contact = () => {
           <div className='contact-info-bg'>
             <div className='contact-info'>
               <h3>< FaLocationArrow /> Address</h3>
-              <p>2890 Tata, Pálffy u. 7.</p>
+              <p> Kerekerdő közepe </p>
               <h3>< FaPhoneAlt /> Phone</h3>
-              <p>34/382-450</p>
+              <p>12/345-678</p>
               <h3>< FaAt /> E-mail</h3>
-              <p>info@equus.hu</p>
+              <p>info@muffinman.hu</p>
             </div>
           </div>
           <form onSubmit={handleSubmit} className='contact-form'>
