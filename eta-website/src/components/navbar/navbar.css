@@ -1,0 +1,132 @@
+.eta__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(114, 114, 114);
+    padding: 1rem 13rem;
+}
+
+.eta__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.eta__navbar-links_logo{
+}
+
+.eta__navbar-links_logo img{
+    width: 65px;
+    height: 65px;
+}
+
+.eta__navbar-links_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.eta__navbar-donate{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.eta__navbar-links_container p,
+.eta__navbar-donate p,
+.eta__navbar-menu_container p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.eta__navbar-donate a{
+    padding: 1rem 2rem;
+    color: black;
+    background: #fff;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 5px rgba(212, 163, 115, 1);
+}
+.eta__navbar-menu_container a{
+    color: #fff;
+}
+
+.eta__navbar-donate p,
+.eta__navbar-menu_container p{
+    color: black;
+}
+
+.eta__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.eta__navbar-menu svg{
+    cursor: pointer;
+}
+
+.eta__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    padding: 1rem;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 150px;
+    border-radius: 5px;
+    background: var(--color-bg);
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.3);
+}
+
+.eta__navbar-menu_container p{
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:1050px){
+    .eta__navbar-links_container{
+        display: none;
+    }
+
+    .eta__navbar-menu{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .eta__navbar{
+        padding: 0.5rem 4rem;
+    }
+    
+    .eta__navbar-donate a{
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .eta__navbar-links_logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .eta__navbar-donate p{
+        font-size: 15px;
+    }
+
+    .eta__navbar{
+        padding: 1rem 4rem;
+    }
+}

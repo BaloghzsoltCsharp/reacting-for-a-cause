@@ -1,0 +1,75 @@
+.zsp {
+    padding: 0 0 30px 0;
+}
+
+.zspfont {
+    font-size: 22px;
+}
+
+.zsh {
+    padding: 0 0 50px 0;
+}
+
+.pname {
+    color: rgb(139, 27, 27);
+    font-size: 20px;
+}
+
+
+/*modal*/
+.btn-modal {
+    width: 25vh;
+    margin: 5px;
+
+}
+
+td {
+    padding-right: 20px;
+}
+
+.modalimg {
+    width: 100%;
+}
+
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 60%;
+    min-width: 30%;
+}
+
+.close-modal:hover {
+    background: rgb(255, 213, 188);
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    border-radius: 10px;
+    border-width: 1.5px;
+    background: #FF8A71;
+}

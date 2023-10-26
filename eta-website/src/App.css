@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* .App{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.image__bg {
+    /* ff 3.6+ */
+    /* background:-moz-linear-gradient(90deg, rgba(212, 163, 115, 1) 0%, rgba(233, 196, 106, 1) 100%);  */
+
+    /* safari 5.1+,chrome 10+ */
+    /* background:-webkit-linear-gradient(90deg, rgba(212, 163, 115, 1) 0%, rgba(233, 196, 106, 1) 100%); */
+
+    /* opera 11.10+ */
+    /* background:-o-linear-gradient(90deg, rgba(212, 163, 115, 1) 0%, rgba(233, 196, 106, 1) 100%); */
+
+    /* ie 6-9 */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9C46A', endColorstr='#D4A373', GradientType=0 ); */
+
+    /* ie 10+ */
+    /* background:-ms-linear-gradient(90deg, rgba(212, 163, 115, 1) 0%, rgba(233, 196, 106, 1) 100%); */
+
+    /* global 94%+ browsers support */
+    /* background:linear-gradient(90deg, rgba(212, 163, 115, 1) 0%, rgba(233, 196, 106, 1) 100%); */
+    background-image: radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0.62) 100%), url('./assets/jamie-street-s9Tf1eBDFqw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 1px 50px 5px gray;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.header__padding {
+    padding: 2rem 1rem;
+}
+
+.section__margin-top {
+    margin-top: 30rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .header__padding {
+        padding: 0.5rem 1rem;
+    }
+
+    .section__margin-top {
+        margin-top: 20rem;
+    }
+}
+
+.aboutUsMain {
+    background: var(--color-footer);
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.contactMain {
+    background: var(--color-footer);
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.donationPart {
+    background-image: url('https://i.pinimg.com/1200x/fc/e4/b8/fce4b83519b0f71fad67bdd5bf568db6.jpg');
+    background-size: 20%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .donationPart {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        
+    }
+}
+/*@media screen and (max-width: 1000px) {
+    .donationPart{
+        display: flex;
+        justify-content: center;
+        background-image: none;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        background-image: url("https://media.istockphoto.com/vectors/yellow-animal-paw-prints-frame-vector-id972721870?k=20&m=972721870&s=170667a&w=0&h=0f_Y93uFxYC3TzSFfhu-IQYcqyufbzZV_9iScup8nlg=");
+        background-size: 80%;
+        background-position: center;
+    }
+}
+@media screen and (max-width: 770px) {
+    .donationPart{
+        display: flex;
+        justify-content: center;
+        background-image: none;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        background-image: url("https://media.istockphoto.com/vectors/yellow-animal-paw-prints-frame-vector-id972721870?k=20&m=972721870&s=170667a&w=0&h=0f_Y93uFxYC3TzSFfhu-IQYcqyufbzZV_9iScup8nlg=");
+        background-size: 100%;
+        background-position: center;
+    }
+}*/
+
+@media screen and (max-width: 700px) {
+    .aboutUsMain {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutUsMain{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .aboutUsMain{
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .section__padding {
+        padding: 3rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
+
+    .section__margin-top {
+        margin-top: 10rem;
+    }
+
+    .header__padding {
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+
+    .header__padding {
+        padding: 0.25rem 0.25rem;
+    }
+
+}

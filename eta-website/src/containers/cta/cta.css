@@ -1,0 +1,187 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .donation{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 800px;
+    min-height: 500px;
+    font-family: var(--font-family);
+    color: black;
+    background: white;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .donation-info {
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 0rem;
+  }
+  
+  .donation-info h3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .donation-info p {
+    color: #dd9543;
+    font-weight: 400;
+  }
+  
+  .donation-info-bg {
+    display: flex;
+    justify-content: center;
+    background-color: #7D7D7D;
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 300px;
+    height: 500px;
+  }
+  .donation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+  }
+  
+  .donation-form h2 {
+    margin-bottom: 3rem;
+    font-size: 30px;
+  }
+  
+  .donation-form-row {
+    display: flex;
+  }
+  
+  .donation-form-field {
+    margin: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    min-height: 30px;
+    font-size: 16px;
+  }
+  
+  .donation-form textarea{
+    height: 100px;
+    width: 300px;
+    font-size: 18px;
+    resize: none;
+  }
+  
+  ::placeholder {
+    color: black;
+    font-family: var(--font-family);
+    font-size: 16px;
+  }
+  
+  .donation-form button{
+    font-family: var(--font-family);
+    font-weight: 500;
+    background: var(--color-footer);
+    height:40px; 
+    width: 100px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    margin: 1rem;
+    cursor: pointer;
+  }
+
+  .donation-billing-field{
+    border-radius: 5px;
+    margin: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    min-height: 30px;
+    font-size: 16px;
+  }
+    
+  @media screen and (max-width:1050px) {
+    .contact {
+      width: 600px;
+    }
+    .donation-info-bg {
+      width: 200px;
+    }
+    .donation-form {
+      width: 400px;
+    }
+    .donation-form-field{
+      width: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .donation {
+      width: 400px;
+      flex-direction: column;
+    }
+    .donation-info-bg {
+      width: 400px;
+      height: 300px;
+    }
+    .donation-form {
+      width: 400px;
+    }
+    .donation-form-field{
+      width: 130px;
+    }
+  }
+  
+  @media screen and (max-width:550px) {
+    .donation {
+      width: 300px;
+      flex-direction: column;
+    }
+    .donation-info-bg {
+      width: 300px;
+      height: 300px;
+    }
+    .donation-form {
+      width: 300px;
+    }
+    .donation-form-field{
+      width: 100px;
+    }
+    .donation-form textarea {
+      width: 200px;
+      height: 150px;
+    }
+  }
+  
+  @media screen and (max-width:400px) {
+    .donation {
+      width: 250px;
+      flex-direction: column;
+    }
+    .donation-info-bg {
+      width: 250px;
+      height: 300px;
+    }
+    .donation-form {
+      width: 250px;
+    }
+    .donation-form-field{
+      width: 100px;
+    }
+    .donation-form textarea {
+      width: 200px;
+      height: 150px;
+    }
+  }

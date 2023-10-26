@@ -1,0 +1,69 @@
+.fbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pets-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-div h1 {
+    font-family: var(--font-family);
+}
+
+.pet-div {
+    padding: 1.5rem;
+
+}
+
+.pet-div img {
+    transition: transform .2s;
+}
+
+.pet-div img:hover {
+    transform: scale(1.5);
+}
+
+.pet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #fff;
+
+}
+
+.pet-div img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.pet-name {
+    padding: 1rem;
+}
+
+.pet-name p {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1050px) {
+    .pet-div img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+@media screen and (max-width:770px) {
+    .pet-div {}
+
+}

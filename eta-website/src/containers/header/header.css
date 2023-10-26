@@ -1,0 +1,84 @@
+.eta__header{
+    display: flex;
+}
+
+.eta__header-content{
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    font-family: var(--font-family);
+}
+
+.eta__header-content>*{
+    height: 100%;
+    flex-grow: 1;
+
+}
+
+.eta__header-content__tod-text{
+    display: flex;
+    flex-grow: 0;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+    text-align: center;
+}
+
+.eta__header-content__tod-info{
+    display: flex;
+    max-width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background:var(--gradient-bg);
+    font-size: 16px;
+    border-right: 2px solid rgba(100, 100, 100,0.2);
+
+}
+
+.animal__name{
+    font-size: 19px;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1050px) {
+    .eta__header-content__tod-text{
+        font-size: 18px;
+    }
+    .eta__header-content__tod-info{
+        font-size: 14px;
+    }
+    .animal__name{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .eta__header-content__tod-text{
+        font-size: 14px;
+    }
+    .eta__header-content__tod-info{
+        font-size: 12px;
+    }
+    .animal__name{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .eta__header-content__tod-text{
+        font-size: 10px;
+    }
+    .eta__header-content__tod-info{
+        max-width: 25%;
+        font-size: 10px;
+    }
+    .animal__name{
+        font-size: 10px;
+    }
+}

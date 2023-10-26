@@ -1,0 +1,70 @@
+.eta__header-content_animals{
+    display: flex;
+    background:var(--gradient-bg);
+    border-right: 2px solid rgba(100, 100, 100,0.2);
+    justify-content: space-evenly;
+}
+
+.eta__header-content_animals-img{
+    display: flex;
+    align-items: center;
+}
+
+.eta__header-content_animals{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.animal__name{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1050px) {
+
+    .eta__header-content_animals-img img{
+        width: 64px;
+    }
+
+    .eta__header-content_animals{
+        line-height: 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    
+    .animal__name{
+        font-size: 16px;
+    }
+
+    .eta__header-content_animals{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    
+    .eta__header-content_animals-img img{
+        width: 32px;
+    }
+
+    .animal__name{
+        font-size: 12px;
+    }
+
+    .eta__header-content_animals{
+        line-height: 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    
+    .eta__header-content_animals-img img{
+        display: none;
+    }
+}
