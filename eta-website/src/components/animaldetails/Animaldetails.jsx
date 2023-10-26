@@ -10,7 +10,7 @@ const Animaldetails = (props) => {
         <div className="eta__header-content_animals-details">
             <p>{props.amount}</p>
             <p className='animal__name'>{props.name}</p>
-            <p>in the database</p>
+            <p>in our shelter</p>
         </div>
     </div>
   )
