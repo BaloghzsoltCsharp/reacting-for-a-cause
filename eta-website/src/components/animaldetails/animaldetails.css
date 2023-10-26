@@ -1,6 +1,6 @@
 .eta__header-content_animals{
     display: flex;
-    background:var(--gradient-bg);
+    background: rgb(67, 66, 66,0.6);
     border-right: 2px solid rgba(100, 100, 100,0.2);
     justify-content: space-evenly;
 }

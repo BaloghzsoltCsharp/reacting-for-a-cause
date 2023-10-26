@@ -5,11 +5,12 @@ import logo from '../../assets/logo.png'
 
 const Menu = () =>{
   return(
+    
     <>
       <p><a href="#aboutus">About Us</a></p>
       <p><a href="#adopt">Adopt</a></p>
       <p><a href="#contact">Contact</a></p>
-      <p>This is just a project that i can show around.</p>
+      <p className='disclaimer23'><a>This is just a project that i can show around.</a></p>
     </>
   )
 }

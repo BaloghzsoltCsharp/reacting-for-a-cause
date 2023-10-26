@@ -56,7 +56,10 @@
     border: none;
     box-shadow: 2px 5px rgba(212, 163, 115, 1);
 }
-.eta__navbar-menu_container a{
+.eta__navbar-menu_container  a{
+    color: #fff;
+}
+.disclaimer23{
     color: #fff;
 }
 
